@@ -25,6 +25,8 @@ public class Servlet extends HttpServlet {
 
         response.setContentType("text/plain");
         response.getWriter().write("TEST" + i);
+
+        System.out.println("Тестируем git");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
