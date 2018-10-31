@@ -9,30 +9,45 @@ $(window).load(function() {
         zoomScaleSensitivity: 0.5
     });
 
-    setInterval(func, 2000);
-});
-
-function func() {
     var svgobject = document.getElementById('imap');
-    if ('contentDocument' in svgobject)
+    if ('contentDocument' in svgobject) {
         var svgdom = svgobject.contentDocument;
+    }
+
+    var urlParams = new URLSearchParams(location.search);
 
     var userObj = {
-        "userName" : "vlad"
+        "objId" : urlParams.get("objectId")
     };
 
-    var url = "test";
-
     $.ajax({
-        url: url,
+        url: "load",
         method: "post",
         data: userObj,
         error: function(message) {
             console.log(message);
         },
         success: function(data) {
-            $("#qwerty", svgdom).text(data);
-            console.log(data);
+            for(var i in data) {
+                $("#" + data[i].name, svgdom).changeVisible();
+                $("#" + data[i].name, svgdom).text(data[i].data);
+
+                $("#" + data[i].name + "_col", svgdom).changeColor(data[i].color);
+
+                $("#" + data[i].name + "_pic", svgdom).changeVisible();
+            }
         }
     });
-}
+});
+
+jQuery.fn.changeColor = function (color) {
+    return this.each(function() {
+        jQuery(this).attr("fill", color);
+    });
+};
+
+jQuery.fn.changeVisible = function () {
+    return this.each(function() {
+        jQuery(this).attr("opacity", 1);
+    });
+};

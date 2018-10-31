@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:metadata>
+    <f:viewParam name="objectId" value="#{mnemoC.objectId}"/>
+    <f:viewAction action="#{mnemoC.doSomething}"/>
+</f:metadata>
+<head>
+    <meta content="UTF-8"/>
+    <title>Мнемосхема для #{param["objectId"]}</title>
+    <script type="application/javascript" src="http://code.jquery.com/jquery-latest.js"/>
+    <script type="application/javascript" src="resources/script.js?v2"/>
+    <script type="application/javascript" src="resources/svg-pan-zoom.js"/>
+</head>
+<body>
+    <div id="container" style="width: 900px; height: 500px; border:1px solid black; ">
+        <object data="#{mnemoC.svgName}" type="image/svg+xml" id="imap" width="900" height="500"/>
+    </div>
+</body>
+</html>
