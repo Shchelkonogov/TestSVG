@@ -1,4 +1,4 @@
-$(window).load(function() {
+jQuery(window).on('load', function() {
     var panZoom = svgPanZoom('#imap', {
         zoomEnabled: true,
         controlIconsEnabled: true,
@@ -9,7 +9,7 @@ $(window).load(function() {
         zoomScaleSensitivity: 0.5
     });
 
-    $(window).resize(function(){
+    jQuery(window).resize(function(){
         panZoom.resize();
         panZoom.fit();
         panZoom.center();
@@ -31,7 +31,7 @@ $(window).load(function() {
     //     "objId" : urlParams.get("objectId")
     // };
 
-    $.ajax({
+    jQuery.ajax({
         url: "load",
         method: "post",
         data: userObj,
@@ -41,12 +41,12 @@ $(window).load(function() {
         success: function(data) {
             for(var i in data) {
                 if (data.hasOwnProperty(i)) {
-                    $("#" + data[i].name, svgDom).changeVisible();
-                    $("#" + data[i].name, svgDom).text(data[i].data);
+                    jQuery("#" + data[i].name, svgDom).changeVisible();
+                    jQuery("#" + data[i].name, svgDom).text(data[i].data);
 
-                    $("#" + data[i].name + "_col", svgDom).changeColor(data[i].color);
+                    jQuery("#" + data[i].name + "_col", svgDom).changeColor(data[i].color);
 
-                    $("#" + data[i].name + "_pic", svgDom).changeVisible();
+                    jQuery("#" + data[i].name + "_pic", svgDom).changeVisible();
                 }
             }
         }
@@ -64,3 +64,7 @@ jQuery.fn.changeVisible = function () {
         jQuery(this).attr("opacity", 1);
     });
 };
+
+function showDialog(){
+    jsCall();
+}

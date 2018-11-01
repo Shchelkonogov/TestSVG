@@ -1,18 +1,30 @@
 package ru.tn.testSVG.controller;
 
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
+import java.util.Objects;
 
 @ManagedBean
-@SessionScoped
+@ViewScoped
 public class MnemonicC {
 
     private String objectId, svgName;
 
+    private String hello;
+
     public void doSomething() {
         //TODO реализовать выбор нужной мнемосхемы по введенным параметрам
         System.out.println("ok " + objectId);
-        svgName = "img/mnemonic.svg?v2";
+        if (Objects.nonNull(objectId) && objectId.equals("123")) {
+            svgName = "img/123.svg";
+        } else {
+            svgName = "img/mnemonic.svg?v2";
+        }
+    }
+
+    public void jsCall() {
+        System.out.println("hello from svg");
+        hello = "Hello from svg!";
     }
 
     public String getObjectId() {
@@ -29,5 +41,13 @@ public class MnemonicC {
 
     public void setSvgName(String svgName) {
         this.svgName = svgName;
+    }
+
+    public String getHello() {
+        return hello;
+    }
+
+    public void setHello(String hello) {
+        this.hello = hello;
     }
 }
