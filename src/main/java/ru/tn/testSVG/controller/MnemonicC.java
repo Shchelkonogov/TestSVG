@@ -5,14 +5,14 @@ import javax.faces.bean.SessionScoped;
 
 @ManagedBean
 @SessionScoped
-public class MnemoC {
+public class MnemonicC {
 
     private String objectId, svgName;
 
     public void doSomething() {
         //TODO реализовать выбор нужной мнемосхемы по введенным параметрам
         System.out.println("ok " + objectId);
-        svgName = "resources/MnemoNew.svg?v2";
+        svgName = "img/mnemonic.svg?v2";
     }
 
     public String getObjectId() {

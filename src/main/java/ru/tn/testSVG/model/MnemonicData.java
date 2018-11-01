@@ -1,10 +1,10 @@
 package ru.tn.testSVG.model;
 
-public class MnemoData {
+public class MnemonicData {
 
     private String name, color, data;
 
-    public MnemoData(String name, String color, String data) {
+    public MnemonicData(String name, String color, String data) {
         this.name = name;
         this.color = color;
         this.data = data;

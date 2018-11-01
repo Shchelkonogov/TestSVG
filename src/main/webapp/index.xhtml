@@ -6,19 +6,29 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <f:metadata>
-    <f:viewParam name="objectId" value="#{mnemoC.objectId}"/>
-    <f:viewAction action="#{mnemoC.doSomething}"/>
+    <f:viewParam name="objectId" value="#{mnemonicC.objectId}"/>
+    <f:viewAction action="#{mnemonicC.doSomething}"/>
 </f:metadata>
 <head>
     <meta content="UTF-8"/>
     <title>Мнемосхема для #{param["objectId"]}</title>
     <script type="application/javascript" src="http://code.jquery.com/jquery-latest.js"/>
-    <script type="application/javascript" src="resources/script.js?v2"/>
-    <script type="application/javascript" src="resources/svg-pan-zoom.js"/>
+    <script type="application/javascript" src="js/script.js?v2"/>
+    <script type="application/javascript" src="js/svg-pan-zoom.js"/>
+    <style type="text/css">
+        #container {
+            border: 1px solid black;
+            width: 100%;
+            box-sizing: border-box;
+            height: calc(100vh - 20px);
+            min-width: 800px;
+            min-height: 400px;
+        }
+    </style>
 </head>
 <body>
-    <div id="container" style="width: 900px; height: 500px; border:1px solid black; ">
-        <object data="#{mnemoC.svgName}" type="image/svg+xml" id="imap" width="900" height="500"/>
+    <div id="container">
+        <object data="#{mnemonicC.svgName}" type="image/svg+xml" id="imap" style="width: 100%; height: 100%"/>
     </div>
 </body>
 </html>

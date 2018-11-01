@@ -2,7 +2,6 @@
 <svg width="1024" height="767.9999999999999" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
  <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
  <g>
-  <title>Layer 1</title>
   <line stroke="#0000ff" id="svg_9" y2="646.31256" x2="421.33336" y1="465.797915" x1="419.83336" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
   <line stroke="#ff0000" fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="267.81641" y1="192.595049" x2="267.06641" y2="133.8" id="svg_15"/>
   <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="266.8" y1="136.39586" x2="599" y2="134.14586" id="svg_18" stroke="#ff0000"/>
@@ -27,12 +26,12 @@
   <path fill="#ff0000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m35,192.709824l4.499989,-4.484756l4.500011,4.484756l-2.25,0l0,4.506638l-4.50005,0l0,-4.506638l-2.24995,0z" id="svg_7" transform="rotate(90 39.49999999999998,192.72076416015628) "/>
   <line fill="none" stroke="#ff0000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="50" y1="462.89583" x2="620" y2="462.89583" id="svg_36"/>
   <path fill="#ff0000" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m35,462.669556l4.5,-4.484772l4.5,4.484772l-2.249989,0l0,4.506653l-4.50005,0l0,-4.506653l-2.249962,0z" transform="rotate(-90 39.500000000000064,462.6804809570313) " id="svg_38"/>
-  <g id="svg_53">
-   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="163" cy="448.21993" id="svg_50" rx="8" ry="8" stroke-width="2"/>
-   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="158.99417" y="412.33791" width="8" height="29.25" id="svg_52"/>
+  <g id="Tто_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="163" cy="448.21993" id="Tто_col" rx="8" ry="8" stroke-width="2"/>
+   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="158.99417" y="412.33791" width="8" height="29.25" id="Tто_col"/>
   </g>
-  <g id="DS'2" stroke="null">
-   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="121.53223" cy="430.730698" id="svg_54" rx="21.53223" ry="20.11414" stroke="#000000"/>
+  <g id="pто_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="121.53223" cy="430.730698" id="pто_col" rx="21.53223" ry="20.11414" stroke="#000000"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="100.76896" y1="431.373238" x2="143.4062" y2="431.373238" id="svg_55" stroke="#000000"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="121.47485" y1="451.469888" x2="121.47485" y2="460.409508" id="svg_56" stroke="#000000"/>
   </g>
@@ -45,19 +44,17 @@
    <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="163" cy="178.77785" rx="8" ry="8" stroke-width="2" id="Tт_col"/>
    <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="158.99416" y="142.89584" width="8" height="29.25" id="Tт_col"/>
   </g>
-  <text opacity="0" stroke="#000000" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="Tт" y="130" x="169.496458" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Т1=</text>
-  <g stroke="null" id="pт_pic" opacity="0">
+  <g id="pт_pic" opacity="0">
    <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="121.53223" cy="160.772665" rx="21.53223" ry="20.11414" stroke="#000000" id="pт_col"/>
    <line fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="100.76896" y1="161.415195" x2="143.4062" y2="161.415195" stroke="#000000" id="svg_69"/>
    <line fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="121.47485" y1="181.511855" x2="121.47485" y2="190.451465" stroke="#000000" id="svg_70"/>
   </g>
-  <text id="pт" opacity="0" stroke="#000000" font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" y="130" x="74.750015" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">P1=</text>
-  <g id="svg_71">
-   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="883" cy="176.90285" rx="8" ry="8" stroke-width="2" id="svg_72"/>
-   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="878.99416" y="141.02084" width="8" height="29.25" id="svg_73"/>
+  <g id="Tц_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="883" cy="176.90285" rx="8" ry="8" stroke-width="2" id="Tц_col"/>
+   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="878.99416" y="141.02084" width="8" height="29.25" id="Tц_col"/>
   </g>
-  <g stroke="null" id="svg_74">
-   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.53224" cy="161.00997" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_75"/>
+  <g id="pц_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.53224" cy="161.00997" rx="21.53223" ry="20.11414" stroke="#000000" id="pц_col"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="815.76897" y1="161.6525" x2="858.4062" y2="161.6525" stroke="#000000" id="svg_76"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="836.47486" y1="181.74916" x2="836.47486" y2="190.68877" stroke="#000000" id="svg_77"/>
   </g>
@@ -71,33 +68,33 @@
    <path fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m910,455.463562l14.55072,8.015411l-14.55072,8.015137l0,-16.030548z" stroke="#000000" id="svg_84"/>
    <path fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m939.6745,471.514374l-14.55072,-8.015411l14.55072,-8.015137l0,16.030548z" stroke="#000000" id="svg_85"/>
   </g>
-  <g id="svg_86">
-   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="883.00007" cy="446.52724" rx="8" ry="8" stroke-width="2" id="svg_87"/>
-   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="878.99424" y="410.64522" width="8" height="29.25" id="svg_88"/>
+  <g id="Tцо_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="883.00007" cy="446.52724" rx="8" ry="8" stroke-width="2" id="Tцо_col"/>
+   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="878.99424" y="410.64522" width="8" height="29.25" id="Tцо_col"/>
   </g>
-  <g stroke="null" id="svg_89">
-   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.53225" cy="430.733969" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_90"/>
+  <g id="pцо_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.53225" cy="430.733969" rx="21.53223" ry="20.11414" stroke="#000000" id="pцо_col"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="815.76898" y1="431.376499" x2="858.40622" y2="431.376499" stroke="#000000" id="svg_91"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="836.47487" y1="451.473159" x2="836.47487" y2="460.412769" stroke="#000000" id="svg_92"/>
   </g>
-  <g id="svg_101">
-   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="221.53222" cy="192.90518" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_97"/>
+  <g id="Gт_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="221.53222" cy="192.90518" rx="21.53223" ry="20.11414" stroke="#000000" id="Gт_col"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="199.68346" y1="200.08958" x2="237.87978" y2="200.08958" id="svg_98" transform="rotate(19 218.7816162109375,200.08934020996088) " stroke="#000000"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="199.73062" y1="185.90317" x2="237.9704" y2="185.90317" transform="rotate(161 218.8505096435547,185.90293884277347) " id="svg_100" stroke="#000000"/>
   </g>
-  <g id="svg_102" transform="rotate(180 221.5322265625,462.5325927734375) ">
-   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="221.53223" cy="462.53258" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_103"/>
+  <g id="Gто_pic" opacity="0" transform="rotate(180 221.5322265625,462.5325927734375) ">
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="221.53223" cy="462.53258" rx="21.53223" ry="20.11414" stroke="#000000" id="Gто_col"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="199.68346" y1="469.71697" x2="237.87979" y2="469.71697" transform="rotate(19 218.78163146972602,469.71740722656256) " stroke="#000000" id="svg_104"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="199.73062" y1="455.53056" x2="237.97041" y2="455.53056" transform="rotate(161 218.8505096435547,455.53097534179693) " stroke="#000000" id="svg_105"/>
   </g>
   <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="420" y1="460.47922" x2="420" y2="84.2" id="svg_113" stroke="#00ff00"/>
   <line fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="419.9" y1="86.642147" x2="950" y2="85.642147" id="svg_135" stroke="#00ff00"/>
-  <g id="svg_136">
-   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="624.92193" cy="70.7356" rx="8" ry="8" stroke-width="2" id="svg_137"/>
-   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="620.9161" y="34.85358" width="8" height="29.25" id="svg_138"/>
+  <g id="Tг_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="624.92193" cy="70.7356" rx="8" ry="8" stroke-width="2" id="Tг_col"/>
+   <rect fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="620.9161" y="34.85358" width="8" height="29.25" id="Tг_col"/>
   </g>
-  <g stroke="null" id="svg_139">
-   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="578.0323" cy="53.840767" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_140"/>
+  <g id="pг_pic" opacity="0">
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="578.0323" cy="53.840767" rx="21.53223" ry="20.11414" stroke="#000000" id="pг_col"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="557.26903" y1="54.483297" x2="599.90627" y2="54.483297" stroke="#000000" id="svg_141"/>
    <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="577.97492" y1="74.579957" x2="577.97492" y2="83.519567" stroke="#000000" id="svg_142"/>
   </g>
@@ -128,14 +125,14 @@
    <path id="svg_12" fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m406.121094,599.41217l14.550842,8.015381l-14.550842,8.015076l0,-16.030457z" stroke="#000000"/>
    <path id="svg_13" fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m435.795654,615.462891l-14.55072,-8.015381l14.55072,-8.015076l0,16.030457z" stroke="#000000"/>
   </g>
-  <g id="svg_14">
-   <ellipse id="svg_16" fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="163.000002" cy="633.91196" rx="8" ry="8" stroke-width="2"/>
-   <rect id="svg_17" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="158.994172" y="598.02994" width="8" height="29.25"/>
+  <g id="Tх_pic" opacity="0">
+   <ellipse id="Tх_col" fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="117.000002" cy="633.333835" rx="8" ry="8" stroke-width="2"/>
+   <rect id="Tх_col" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="112.994172" y="597.451815" width="8" height="29.25"/>
   </g>
-  <g id="svg_20" stroke="null">
-   <ellipse id="svg_21" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="121.532232" cy="617.134652" rx="21.53223" ry="20.11414" stroke="#000000"/>
-   <line id="svg_22" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="100.768962" y1="617.777182" x2="143.406202" y2="617.777182" stroke="#000000"/>
-   <line id="svg_23" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="121.474852" y1="637.873832" x2="121.474852" y2="646.813452" stroke="#000000"/>
+  <g id="pгор_pic" opacity="0">
+   <ellipse id="pгор_col" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="77.532232" cy="616.556527" rx="21.53223" ry="20.11414" stroke="#000000"/>
+   <line id="svg_22" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="56.768962" y1="617.199057" x2="99.406202" y2="617.199057" stroke="#000000"/>
+   <line id="svg_23" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="77.474852" y1="637.295707" x2="77.474852" y2="646.235327" stroke="#000000"/>
   </g>
   <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_24" y="689.0625" x="55.08333" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">ХВС</text>
   <g id="svg_25" stroke="null">
@@ -152,17 +149,17 @@
    <path id="svg_58" fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m910,551.833374l14.55072,8.015442l-14.55072,8.015137l0,-16.030579z" stroke="#000000"/>
    <path id="svg_93" fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m939.6745,567.884216l-14.55072,-8.015442l14.55072,-8.015137l0,16.030579z" stroke="#000000"/>
   </g>
-  <g id="svg_94">
-   <ellipse id="svg_95" fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="881.43765" cy="542.73553" rx="8" ry="8" stroke-width="2"/>
-   <rect id="svg_96" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="877.43182" y="506.85352" width="8" height="29.25"/>
+  <g id="Tго_pic" opacity="0">
+   <ellipse id="Tго_col" fill="#ffffff" stroke="#000000" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="881.43765" cy="542.73553" rx="8" ry="8" stroke-width="2"/>
+   <rect id="Tго_col" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="877.43182" y="506.85352" width="8" height="29.25"/>
   </g>
-  <g id="svg_99" stroke="null">
-   <ellipse id="svg_106" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.532208" cy="528.568236" rx="21.53223" ry="20.11414" stroke="#000000"/>
+  <g id="pго_pic" opacity="0">
+   <ellipse id="pго_col" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.532208" cy="528.568236" rx="21.53223" ry="20.11414" stroke="#000000"/>
    <line id="svg_107" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="815.768938" y1="529.210766" x2="858.406178" y2="529.210766" stroke="#000000"/>
    <line id="svg_108" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="836.474828" y1="549.307426" x2="836.474828" y2="558.247036" stroke="#000000"/>
   </g>
-  <g id="svg_109" stroke="null">
-   <ellipse id="svg_110" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.532284" cy="616.46767" rx="21.53223" ry="20.11414" stroke="#000000"/>
+  <g id="pх_pic" opacity="0">
+   <ellipse id="pх_col" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="836.532284" cy="616.46767" rx="21.53223" ry="20.11414" stroke="#000000"/>
    <line id="svg_111" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="815.769014" y1="617.1102" x2="858.406254" y2="617.1102" stroke="#000000"/>
    <line id="svg_112" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="836.474904" y1="637.20686" x2="836.474904" y2="646.14648" stroke="#000000"/>
   </g>
@@ -178,12 +175,11 @@
   <text xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_193" y="165.837906" x="614.79403" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">11</text>
   <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_194" y="432.31256" x="360.96529" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">ГВС 1ст.</text>
   <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_195" y="101.12506" x="369.41321" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">ГВС 2ст.</text>
-  <text stroke="#000000" transform="matrix(2.0681936740875244,0,0,1,-165.0192321203649,0) " font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="Tт" y="130" x="169.496458" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" opacity="0" stroke-width="0" fill="#000000">Т1=</text>
   <g id="svg_247">
    <path fill="#ffffff" stroke="#000000" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m380.491821,135.697098l39.374512,-39.374931l39.375458,39.374931l-39.375458,39.374176l-39.374512,-39.374176z" id="svg_116"/>
    <line fill="none" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="419.93555" y1="166.17517" x2="419.93555" y2="109.37201" id="svg_117" stroke="#000000"/>
    <line fill="none" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="416.26759" y1="163.85691" x2="416.26759" y2="107.55431" id="svg_118" transform="rotate(90 416.267578125,135.7056274414063) " stroke="#000000"/>
-   <path stroke="#000000" transform="rotate(-90 419.938232421875,107.31393432617183) " id="svg_245" d="m418.624908,110.722816c-0.309631,-0.189629 -0.27002,-0.304306 0.483093,-1.367149c0.380249,-0.536674 0.691986,-0.991287 0.691986,-1.010437c0,-0.018806 -1.049744,-0.034637 -2.332611,-0.034637l-2.332214,0l0,-1.005005l0,-1.005081l2.349762,0c1.814178,0 2.330414,-0.030243 2.262238,-0.132118c-0.048096,-0.07299 -0.379883,-0.555511 -0.735657,-1.072632c-0.671967,-0.975113 -0.671967,-1.236359 0,-1.317413c0.33606,-0.040344 5.549805,3.058174 5.729797,3.40416c-1.736969,1.235001 -3.812622,2.527534 -5.725342,3.667419c-0.101013,0 -0.276917,-0.05719 -0.391052,-0.127106z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#000000"/>
+   <path stroke="#000000" transform="rotate(-90 419.938232421875,107.31393432617183) " id="svg_245" d="m418.624908,110.722816c-0.309631,-0.189629 -0.27002,-0.304306 0.483093,-1.367149c0.380249,-0.536674 0.691986,-0.991287 0.691986,-1.010437c0,-0.018806 -1.049744,-0.034637 -2.332611,-0.034637l-2.332214,0l0,-1.005005l0,-1.005081l2.349762,0c1.814178,0 2.330414,-0.030243 2.262238,-0.132118c-0.048096,-0.07299 -0.379883,-0.555511 -0.735657,-1.072632c-0.671967,-0.975113 -0.671967,-1.236359 0,-1.317413c0.33606,-0.040344 5.549805,3.058174 5.729797,3.40416c-1.736969,1.235008 -3.812622,2.527534 -5.725342,3.667419c-0.101013,0 -0.276917,-0.05719 -0.391052,-0.127106z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#000000"/>
    <path id="svg_246" stroke="#000000" d="m446.127563,139.121994c-0.309631,-0.189621 -0.27002,-0.304306 0.483093,-1.367142c0.380249,-0.536682 0.691986,-0.991287 0.691986,-1.010437c0,-0.018814 -1.049744,-0.034653 -2.332611,-0.034653l-2.332214,0l0,-1.00499l0,-1.005066l2.349762,0c1.814178,0 2.330414,-0.030258 2.262238,-0.132126c-0.048096,-0.072998 -0.379883,-0.555511 -0.735657,-1.072632c-0.671967,-0.975128 -0.671967,-1.236359 0,-1.317413c0.33606,-0.040344 5.549805,3.058167 5.729797,3.404144c-1.736969,1.235001 -3.812622,2.527542 -5.725342,3.667419c-0.101013,0 -0.276917,-0.05719 -0.391052,-0.127106z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="#000000"/>
   </g>
   <g transform="rotate(-90 420.22558593750006,463.1142578125) " id="svg_248">
@@ -198,105 +194,87 @@
    <line id="svg_256" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="398.311023" y1="546.344106" x2="436.507353" y2="546.344106" transform="rotate(19 417.40917968750006,546.3445434570311) " stroke="#000000"/>
    <line id="svg_257" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="398.358183" y1="532.157696" x2="436.597973" y2="532.157696" transform="rotate(161 417.47808837890625,532.1580810546875) " stroke="#000000"/>
   </g>
-  <g id="svg_291">
+  <g id="CPх3_pic" opacity="0">
    <line id="svg_283" stroke="#0000ff" transform="rotate(270 254.17434692382818,698.5201416015626) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="254.174346" y1="662.855881" x2="254.174346" y2="734.18441"/>
    <line id="svg_284" transform="rotate(270 289.72900390625006,674.5842895507814) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="263.625496" y1="674.584318" x2="315.832526" y2="674.584318"/>
    <line id="svg_285" transform="rotate(270 218.56884765625006,674.7778320312501) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="192.465326" y1="674.77784" x2="244.672356" y2="674.77784"/>
    <g transform="rotate(180 252.1462860107422,698.5791015625) " id="svg_286">
     <ellipse id="svg_287" transform="rotate(90 252.1462860107421,698.5791015625001) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="252.14628" cy="698.579094" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="svg_288" transform="rotate(-90 244.06840515136733,698.2648315429689) " fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m228.599655,706.139832l15.46875,-15.75l15.468765,15.75l-30.937515,0z" stroke="#000000"/>
+    <path id="CPх3_col" transform="rotate(-90 244.06840515136733,698.2648315429689) " fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m228.599655,706.139832l15.46875,-15.75l15.468765,15.75l-30.937515,0z" stroke="#000000"/>
    </g>
   </g>
-  <g id="svg_292">
-   <line id="svg_278" stroke="#0000ff" transform="rotate(450 254.03657531738278,599.0242309570312) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="254.036582" y1="563.35997" x2="254.036582" y2="634.688499"/>
-   <line id="svg_279" transform="rotate(450 218.48205566406247,622.9598999023438) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="192.378541" y1="622.959928" x2="244.585571" y2="622.959928"/>
-   <line id="svg_280" transform="rotate(450 289.6419677734375,622.7664794921875) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="263.538439" y1="622.766488" x2="315.745469" y2="622.766488"/>
-   <g transform="rotate(180 252.13748168945315,598.6357421875) " id="svg_274">
-    <ellipse id="svg_275" transform="rotate(270 252.13748168945318,598.6357421875001) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="252.137454" cy="598.635759" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="svg_276" transform="rotate(-90 243.76235961914077,598.1065063476564) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m228.29361,605.981506l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
-   </g>
-  </g>
-  <g id="svg_294">
-   <line stroke="#00ff00" id="svg_154" transform="rotate(270 555.4269409179686,612.9711914062499) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="555.426933" y1="577.306965" x2="555.426933" y2="648.635494"/>
-   <line id="svg_158" transform="rotate(270 590.9815673828124,589.2397460937499) " fill="none" stroke="#00ff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="564.878083" y1="589.239748" x2="617.085113" y2="589.239748"/>
-   <line id="svg_164" transform="rotate(270 519.8214721679686,589.4332275390624) " fill="none" stroke="#00ff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="493.717913" y1="589.43327" x2="545.924943" y2="589.43327"/>
+  <g id="CPг3_pic" opacity="0">
+   <line stroke="#00ff00" id="svg_154" transform="rotate(270 555.4269409179686,614.9711914062499) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="555.426933" y1="579.306965" x2="555.426933" y2="650.635494"/>
+   <line id="svg_158" transform="rotate(270 590.9815673828124,591.2397460937499) " fill="none" stroke="#00ff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="564.878083" y1="591.239748" x2="617.085113" y2="591.239748"/>
+   <line id="svg_164" transform="rotate(270 519.8214721679686,591.4332275390624) " fill="none" stroke="#00ff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="493.717913" y1="591.43327" x2="545.924943" y2="591.43327"/>
    <g id="svg_260">
-    <ellipse id="svg_156" transform="rotate(270 557.3261108398436,614.0714721679686) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="557.326083" cy="614.071463" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="svg_157" transform="rotate(-90 548.9509887695314,613.542236328125) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m533.482239,621.417236l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
+    <ellipse id="svg_156" transform="rotate(270 557.3261108398436,616.0714721679686) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="557.326083" cy="616.071463" rx="21.53223" ry="20.11414" stroke="#000000"/>
+    <path id="CPг3_col" transform="rotate(-90 548.9509887695314,615.542236328125) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m533.482239,623.417236l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
    </g>
   </g>
-  <g id="svg_295">
+  <g id="CPг2_pic" opacity="0">
    <line id="svg_264" stroke="#00ff00" transform="rotate(450 555.2892456054688,513.424743652344) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="555.289184" y1="477.760517" x2="555.289184" y2="549.089046"/>
    <line id="svg_265" transform="rotate(450 519.7346801757814,537.3341064453126) " fill="none" stroke="#00ff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="493.631203" y1="537.334169" x2="545.838233" y2="537.334169"/>
    <line id="svg_266" transform="rotate(450 590.8946533203124,537.1406860351564) " fill="none" stroke="#00ff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="564.791041" y1="537.140667" x2="616.998071" y2="537.140667"/>
    <g id="svg_268">
     <ellipse transform="rotate(90 556.1028442382812,513.2636718750001) " id="svg_127" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="556.102838" cy="513.263637" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path transform="rotate(-90 548.0249633789064,512.9494018554688) " id="svg_148" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m532.556213,520.824402l15.46875,-15.750031l15.46875,15.750031l-30.9375,0z" stroke="#000000"/>
+    <path transform="rotate(-90 548.0249633789064,512.9494018554688) " id="CPг2_col" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m532.556213,520.824402l15.46875,-15.750031l15.46875,15.750031l-30.9375,0z" stroke="#000000"/>
    </g>
   </g>
-  <g id="svg_296">
+  <g id="CPпц3" opacity="0">
    <line fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="575.228824" y1="237.816406" x2="575.228824" y2="309.816406" id="svg_161"/>
-   <g id="CNO_2">
-    <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="574.912404" cy="272.21374" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_159"/>
-    <path fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m559.55127,271.291626l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000" id="svg_160"/>
-   </g>
+   <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="574.912404" cy="272.21374" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_159"/>
+   <path fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m559.55127,271.291626l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000" id="CPпц3_col"/>
    <line fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="572.840924" y1="309.314453" x2="625.047954" y2="309.314453" id="svg_162"/>
    <line fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="572.682713" y1="237.837936" x2="624.889743" y2="237.837936" id="svg_163"/>
   </g>
-  <g id="svg_297">
+  <g id="CPпц2" opacity="0">
    <line fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="675.520166" y1="237.852765" x2="675.520166" y2="309.677979" id="svg_166" transform="rotate(180 675.5201416015625,273.76538085937506) "/>
    <line fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="625.463811" y1="238.131133" x2="677.670841" y2="238.131133" id="svg_170" transform="rotate(180 651.5673217773438,238.1311340332031) "/>
    <line fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="625.622003" y1="309.428433" x2="677.829033" y2="309.428433" id="svg_171" transform="rotate(180 651.7255249023438,309.42843627929693) "/>
    <g id="svg_172" transform="rotate(180 675.7181396484375,272.7859191894532) ">
     <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="675.718034" cy="272.785859" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_168" transform="rotate(180 675.7180786132812,272.78588867187506) "/>
-    <path fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m660.141663,289.458008l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000" id="svg_169" transform="rotate(180 675.6104125976562,281.58300781250006) "/>
+    <path fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m660.141663,289.458008l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000" id="CPпц2_col" transform="rotate(180 675.6104125976562,281.58300781250006) "/>
    </g>
   </g>
-  <g id="CNO_12_pic">
+  <g id="CPц3" opacity="0">
    <line id="svg_309" stroke="#ffff00" transform="rotate(450 726.6187133789062,414.0696716308594) " fill="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="726.618667" y1="378.405445" x2="726.618667" y2="449.733974"/>
    <line id="svg_310" transform="rotate(450 691.0641479492188,437.9790344238282) " fill="#ffff00" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="664.960686" y1="437.979097" x2="717.167716" y2="437.979097"/>
    <line id="svg_311" transform="rotate(450 762.22412109375,437.78561401367193) " fill="#ffff00" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="736.120524" y1="437.785595" x2="788.327554" y2="437.785595"/>
    <g id="svg_312">
     <ellipse id="svg_313" transform="rotate(90 727.4323120117189,413.90856933593756) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="727.432321" cy="413.908565" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="CNO_12_pic_1" transform="rotate(-90 719.3544311523438,413.5942993164062) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m703.885681,421.46933l15.46875,-15.750031l15.46875,15.750031l-30.9375,0z" stroke="#000000"/>
+    <path id="CPц3_col" transform="rotate(-90 719.3544311523438,413.5942993164062) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m703.885681,421.46933l15.46875,-15.750031l15.46875,15.750031l-30.9375,0z" stroke="#000000"/>
    </g>
   </g>
-  <g id="svg_316">
+  <g id="CPц2" opacity="0">
    <line id="svg_302" stroke="#ffff00" transform="rotate(270 726.7564086914061,513.0536499023436) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="726.756416" y1="477.389393" x2="726.756416" y2="548.717922"/>
    <line id="svg_303" transform="rotate(270 762.3110961914061,489.32217407226557) " fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="736.207566" y1="489.322175" x2="788.414596" y2="489.322175"/>
    <line id="svg_304" transform="rotate(270 691.1509399414061,489.5156860351562) " fill="none" stroke="#ffff00" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="665.047396" y1="489.515698" x2="717.254426" y2="489.515698"/>
    <g id="svg_305">
     <ellipse id="svg_306" transform="rotate(270 728.6555786132811,514.1539306640624) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="728.655566" cy="514.153891" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="svg_307" transform="rotate(-90 720.2804565429689,513.6246337890625) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m704.811707,521.499634l15.46875,-15.749969l15.46875,15.749969l-30.9375,0z" stroke="#000000"/>
+    <path id="CPц2_col" transform="rotate(-90 720.2804565429689,513.6246337890625) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m704.811707,521.499634l15.46875,-15.749969l15.46875,15.749969l-30.9375,0z" stroke="#000000"/>
    </g>
   </g>
-  <g id="svg_68">
+  <g id="CPпц1" opacity="0">
    <g id="CNO1">
     <ellipse fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="625.311325" cy="272.07247" rx="21.53223" ry="20.11414" stroke="#000000" id="svg_152"/>
-    <path fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m609.950195,271.15036l15.46875,-15.75l15.46875,15.75l-30.9375,0z" id="svg_155" stroke="#000000"/>
+    <path fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m609.950195,271.15036l15.46875,-15.75l15.46875,15.75l-30.9375,0z" id="CPпц1_col" stroke="#000000"/>
    </g>
    <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="707.333374" y="218.888916" id="svg_67" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve" font-weight="bold">Насосы смешения</text>
   </g>
-  <g id="svg_119">
+  <g id="CPц1" opacity="0">
    <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_114" y="381.89355" x="732.811325" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#ffff00" fill="#000000">Насосы ЦНО</text>
    <g id="svg_298">
     <ellipse id="svg_299" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="729.226726" cy="463.944069" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="svg_300" transform="rotate(-90 719.1624755859375,463.49075317382807) " fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m703.693726,471.365753l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
+    <path id="CPц1_col" transform="rotate(-90 719.1624755859375,463.49075317382807) " fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m703.693726,471.365753l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
    </g>
   </g>
-  <g id="svg_123">
+  <g id="CPг1_pic" opacity="0">
    <g id="svg_167">
     <ellipse id="svg_120" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="557.897243" cy="563.861641" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path transform="rotate(-90 547.8330078125001,563.4083251953125) " id="svg_121" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m532.364258,571.283325l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
+    <path transform="rotate(-90 547.8330078125001,563.4083251953125) " id="CPг1_col" fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m532.364258,571.283325l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
    </g>
    <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_175" y="483.061613" x="561.737405" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Насосы ГВС</text>
-  </g>
-  <g id="svg_124">
-   <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_244" y="565.652456" x="260.24915" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#0000ff" fill="#000000">Насосы ХВС</text>
-   <g transform="rotate(180 252.14628601074222,648.3379516601562) " id="svg_270">
-    <ellipse id="svg_271" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="252.146282" cy="648.337925" rx="21.53223" ry="20.11414" stroke="#000000"/>
-    <path id="svg_272" transform="rotate(-90 242.0820465087892,647.8845825195314) " fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m226.613297,655.759583l15.46875,-15.75l15.468735,15.75l-30.937485,0z" stroke="#000000"/>
-   </g>
   </g>
   <g id="svg_125">
    <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_213" y="614.750002" x="370.578184" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">РД</text>
@@ -321,6 +299,52 @@
     <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_115" y="119.449211" x="293.09374" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">~</text>
    </g>
    <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="284.333374" y="90.888916" id="svg_128" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve" font-weight="bold">PTгвс</text>
+  </g>
+  <text opacity="0" id="pт" stroke="#000000" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" y="130" x="74.750015" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">P1=</text>
+  <text opacity="0" stroke="#000000" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="Tт" y="130" x="169.496458" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#000000">Т1=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="550" y="25.611145" id="pг" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Pг=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="635.666687" y="25.611145" id="Tг" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Тг=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="802.666687" y="129.111145" id="pц" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Pц=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="891.666687" y="129.111145" id="Tц" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Тц=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="812.666687" y="397.611145" id="pцо" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Рцо=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="887.666687" y="397.611145" id="Tцо" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Тцо=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="803.666687" y="496.111145" id="pго" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Рго=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" x="887.666687" y="496.111145" id="Tго" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Тго=</text>
+  <text opacity="0" fill="#000000" stroke-width="0" x="809.666687" y="590.111145" id="pх" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Рхвс</text>
+  <text opacity="0" fill="#000000" stroke="null" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="44.291687" y="583.111145" id="pгор" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Ргор=</text>
+  <text opacity="0" fill="#000000" stroke="null" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="134.354187" y="583.111145" id="Tх" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Тхвс=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="176.666687" y="394.611145" id="Tто" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Т2=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="76.666687" y="394.611145" id="pто" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">Р2=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="203.666687" y="241.111145" id="Gт" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">G1=</text>
+  <text opacity="0" fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="211.666687" y="429.111145" id="Gто" font-size="16" font-family="Courier" text-anchor="middle" xml:space="preserve">G2=</text>
+  <g id="Chт_pic" opacity="0">
+   <rect id="Chт_col" height="39" width="87" y="281.111145" x="184.555603" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+   <text stroke="#000000" transform="matrix(1.8990342617034912,0,0,1.730465292930603,-167.81036391109228,-204.35907921753824) " font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_17" y="296.578421" x="208.193606" stroke-width="0" fill="#000000">TC</text>
+  </g>
+  <g id="CPх4_pic" opacity="0">
+   <line id="svg_50" stroke="#0000ff" transform="rotate(450 254.14935302734372,547.13525390625) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="254.149367" y1="511.470962" x2="254.149367" y2="582.799491"/>
+   <line id="svg_52" transform="rotate(450 218.5948333740234,571.0709228515625) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="192.491326" y1="571.07092" x2="244.698356" y2="571.07092"/>
+   <line id="svg_53" transform="rotate(450 289.7547607421875,570.8775024414062) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="263.651224" y1="570.87748" x2="315.858254" y2="570.87748"/>
+   <g id="svg_54" transform="rotate(180 252.25027465820312,546.7467041015625) ">
+    <ellipse id="svg_59" transform="rotate(270 252.25027465820318,546.7467041015626) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="252.250239" cy="546.746751" rx="21.53223" ry="20.11414" stroke="#000000"/>
+    <path id="CPх4_col" transform="rotate(-90 243.87515258789077,546.2175292968751) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m228.406387,554.092529l15.468765,-15.75l15.46875,15.75l-30.937515,0z" stroke="#000000"/>
+   </g>
+  </g>
+  <g id="CPх2_pic" opacity="0">
+   <line id="svg_278" stroke="#0000ff" transform="rotate(450 254.03657531738278,599.0242309570312) " fill="none" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="254.036582" y1="563.35997" x2="254.036582" y2="634.688499"/>
+   <line id="svg_279" transform="rotate(450 218.48205566406247,622.9598999023438) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="192.378541" y1="622.959928" x2="244.585571" y2="622.959928"/>
+   <line id="svg_280" transform="rotate(450 289.6419677734375,622.7664794921875) " fill="none" stroke="#0000ff" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="263.538439" y1="622.766488" x2="315.745469" y2="622.766488"/>
+   <g transform="rotate(180 252.13748168945315,598.6357421875) " id="svg_274">
+    <ellipse id="svg_275" transform="rotate(270 252.13748168945318,598.6357421875001) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="252.137454" cy="598.635759" rx="21.53223" ry="20.11414" stroke="#000000"/>
+    <path id="CPх2_col" transform="rotate(-90 243.76235961914077,598.1065063476564) " fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m228.29361,605.981506l15.46875,-15.75l15.46875,15.75l-30.9375,0z" stroke="#000000"/>
+   </g>
+  </g>
+  <g id="CPх1_pic" opacity="0">
+   <text font-weight="bold" xml:space="preserve" text-anchor="middle" font-family="Courier" font-size="16" id="svg_244" y="515.683706" x="245.9054" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#0000ff" fill="#000000">Насосы ХВС</text>
+   <g transform="rotate(180 252.14630126953128,648.3379516601562) " id="svg_270">
+    <ellipse id="svg_271" fill="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" cx="252.146282" cy="648.337925" rx="21.53223" ry="20.11414" stroke="#000000"/>
+    <path id="CPх1_col" transform="rotate(-90 242.0820465087892,647.8845825195314) " fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" d="m226.613297,655.759583l15.46875,-15.75l15.468735,15.75l-30.937485,0z" stroke="#000000"/>
+   </g>
   </g>
  </g>
 </svg>
