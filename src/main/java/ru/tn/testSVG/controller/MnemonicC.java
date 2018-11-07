@@ -18,12 +18,12 @@ public class MnemonicC {
         if (Objects.nonNull(objectId) && objectId.equals("123")) {
             svgName = "img/123.svg";
         } else {
-            svgName = "img/mnemonic.svg?v2";
+            svgName = "img/mnemonic.svg?v5";
         }
     }
 
     public void jsCall() {
-        System.out.println("hello from svg");
+        System.out.println("hello from svg for object " + objectId);
         hello = "Hello from svg!";
     }
 

@@ -19,11 +19,15 @@ public class LoadMDataBean {
     private DataSource ds;
 
     private static final String SQL = "select * from table(get_mnemo_p1(?))";
+    private static final String NLS_SQL = "alter session set NLS_NUMERIC_CHARACTERS='.,'";
 
     public List<MnemonicData> getData(String object) {
         List<MnemonicData> result = new ArrayList<>();
         try(Connection connect = ds.getConnection();
+                PreparedStatement stmNls = connect.prepareStatement(NLS_SQL);
                 PreparedStatement stm = connect.prepareStatement(SQL)) {
+            stmNls.executeQuery();
+
             String color;
 
             stm.setString(1, object);
@@ -57,7 +61,7 @@ public class LoadMDataBean {
                 }
 
                 result.add(new MnemonicData(res.getString(1).replaceAll("'", "\\\\'"),
-                        color, res.getString(3)));
+                        color, res.getString(3), res.getString(4)));
             }
         } catch(SQLException e) {
             e.printStackTrace();

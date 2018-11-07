@@ -2,12 +2,13 @@ package ru.tn.testSVG.model;
 
 public class MnemonicData {
 
-    private String name, color, data;
+    private String name, color, data, title;
 
-    public MnemonicData(String name, String color, String data) {
+    public MnemonicData(String name, String color, String data, String title) {
         this.name = name;
         this.color = color;
         this.data = data;
+        this.title = title;
     }
 
     public String getName() {
@@ -32,5 +33,13 @@ public class MnemonicData {
 
     public void setData(String data) {
         this.data = data;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }

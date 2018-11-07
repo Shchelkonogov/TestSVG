@@ -44,6 +44,8 @@ jQuery(window).on('load', function() {
                     jQuery("#" + data[i].name, svgDom).changeVisible();
                     jQuery("#" + data[i].name, svgDom).text(data[i].data);
 
+                    jQuery("#" + data[i].name + "_tit", svgDom).text(data[i].title);
+
                     jQuery("#" + data[i].name + "_col", svgDom).changeColor(data[i].color);
 
                     jQuery("#" + data[i].name + "_pic", svgDom).changeVisible();
