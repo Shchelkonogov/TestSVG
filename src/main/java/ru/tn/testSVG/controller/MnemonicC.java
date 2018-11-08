@@ -1,7 +1,10 @@
 package ru.tn.testSVG.controller;
 
+import ru.tn.testSVG.beans.LoadSvgBean;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
+import javax.inject.Inject;
 import java.util.Objects;
 
 @ManagedBean
@@ -10,16 +13,20 @@ public class MnemonicC {
 
     private String objectId, svgName;
 
+    @Inject
+    private LoadSvgBean bean;
+
     private String hello;
 
     public void doSomething() {
         //TODO реализовать выбор нужной мнемосхемы по введенным параметрам
-        System.out.println("ok " + objectId);
+        System.out.println("load object: " + objectId);
         if (Objects.nonNull(objectId) && objectId.equals("123")) {
             svgName = "img/123.svg";
         } else {
-            svgName = "img/mnemonic.svg?v5";
+            svgName = "img/" + bean.loadSvgName(objectId);
         }
+        System.out.println("mnemonic file for object: " + objectId + " is " + svgName);
     }
 
     public void jsCall() {

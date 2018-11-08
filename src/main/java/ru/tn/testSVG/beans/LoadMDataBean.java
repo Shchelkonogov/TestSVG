@@ -18,7 +18,7 @@ public class LoadMDataBean {
     @Resource(name = "OracleDataSource", mappedName = "jdbc/OracleDataSource")
     private DataSource ds;
 
-    private static final String SQL = "select * from table(get_mnemo_p1(?))";
+    private static final String SQL = "select * from table(mnemo.get_mnemo_hist_data(?))";
     private static final String NLS_SQL = "alter session set NLS_NUMERIC_CHARACTERS='.,'";
 
     public List<MnemonicData> getData(String object) {
