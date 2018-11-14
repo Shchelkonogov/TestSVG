@@ -3,6 +3,7 @@ package ru.tn.testSVG.beans;
 import ru.tn.testSVG.model.MnemonicData;
 
 import javax.annotation.Resource;
+import javax.ejb.EJB;
 import javax.ejb.Stateless;
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -12,15 +13,19 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Stateless
-public class LoadMDataBean {
+@Stateless(name = "LoadMDataBean")
+public class LoadMDataBean implements InMDataBeanLocal {
 
     @Resource(name = "OracleDataSource", mappedName = "jdbc/OracleDataSource")
     private DataSource ds;
 
+    @EJB
+    private ParseMDataBean bean;
+
     private static final String SQL = "select * from table(mnemo.get_mnemo_hist_data(?))";
     private static final String NLS_SQL = "alter session set NLS_NUMERIC_CHARACTERS='.,'";
 
+    @Override
     public List<MnemonicData> getData(String object) {
         List<MnemonicData> result = new ArrayList<>();
         try(Connection connect = ds.getConnection();
@@ -28,41 +33,10 @@ public class LoadMDataBean {
                 PreparedStatement stm = connect.prepareStatement(SQL)) {
             stmNls.executeQuery();
 
-            String color;
-
             stm.setString(1, object);
             ResultSet res = stm.executeQuery();
-            while(res.next()) {
-                switch(res.getInt(2)) {
-                    case 1:
-                    case 41: {
-                        color = "white";
-                        break;
-                    }
-                    case 6:
-                    case 2: {
-                        color = "red";
-                        break;
-                    }
-                    case 3:
-                    case 5: {
-                        color = "yellow";
-                        break;
-                    }
-                    case 4: {
-                        color = "green";
-                        break;
-                    }
-                    case 7: {
-                        color = "lightGrey";
-                        break;
-                    }
-                    default: color = "white";
-                }
 
-                result.add(new MnemonicData(res.getString(1).replaceAll("'", "\\\\'"),
-                        color, res.getString(3), res.getString(4)));
-            }
+            bean.parseData(result, res);
         } catch(SQLException e) {
             e.printStackTrace();
         }

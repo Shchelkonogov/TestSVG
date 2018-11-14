@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "LoadMDataServlet", urlPatterns = "/load")
-public class LoadMDataServlet extends HttpServlet {
+@WebServlet(name = "LoadMInstantDataServlet", urlPatterns = "/instLoad")
+public class LoadMInstantDataServlet extends HttpServlet {
 
-    @EJB(beanName = "LoadMDataBean")
+    @EJB(beanName = "LoadMInstantDataBean")
     private InMDataBeanLocal bean;
 
     @Override

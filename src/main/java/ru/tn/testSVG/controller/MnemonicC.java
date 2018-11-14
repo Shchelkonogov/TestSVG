@@ -7,6 +7,7 @@ import javax.faces.bean.ViewScoped;
 import javax.inject.Inject;
 import java.util.Objects;
 
+//TODO этот класс надо дописывать тут много кода для тестирования новых фич
 @ManagedBean
 @ViewScoped
 public class MnemonicC {
