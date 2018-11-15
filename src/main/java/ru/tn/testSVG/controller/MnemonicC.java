@@ -7,7 +7,6 @@ import javax.faces.bean.ViewScoped;
 import javax.inject.Inject;
 import java.util.Objects;
 
-//TODO этот класс надо дописывать тут много кода для тестирования новых фич
 @ManagedBean
 @ViewScoped
 public class MnemonicC {
@@ -20,12 +19,20 @@ public class MnemonicC {
     private String hello;
 
     public void doSomething() {
-        //TODO реализовать выбор нужной мнемосхемы по введенным параметрам
         System.out.println("load object: " + objectId);
-        if (Objects.nonNull(objectId) && objectId.equals("123")) {
-            svgName = "img/123.svg";
+        if (Objects.isNull(objectId)) {
+            svgName = "img/error.svg";
         } else {
-            svgName = "img/" + bean.loadSvgName(objectId);
+            if (objectId.equals("123")) {
+                svgName = "img/123.svg";
+            } else {
+                String fileName = bean.loadSvgName(objectId);
+                if (Objects.isNull(fileName)) {
+                    svgName = "img/error.svg";
+                } else {
+                    svgName = "img/" + fileName;
+                }
+            }
         }
         System.out.println("mnemonic file for object: " + objectId + " is " + svgName);
     }
