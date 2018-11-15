@@ -17,6 +17,7 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
     private static final String GET_MUID_SQL = "{? = call mnemo.set_mnemo_async_request(?)}";
     private static final String GET_STATUS_SQL = "select mnemo.get_mnemo_async_status(?) from dual";
     private static final String GET_DATA_SQL = "select * from table (mnemo.get_mnemo_async_data(?))";
+    private static final String NLS_SQL = "alter session set NLS_NUMERIC_CHARACTERS='.,'";
 
     @Resource(name = "OracleDataSource", mappedName = "jdbc/OracleDataSource")
     private DataSource ds;
@@ -51,7 +52,10 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
 
             try(Connection connect = ds.getConnection();
                     PreparedStatement stmGetStatus = connect.prepareStatement(GET_STATUS_SQL);
-                    PreparedStatement stmGetData = connect.prepareStatement(GET_DATA_SQL)) {
+                    PreparedStatement stmGetData = connect.prepareStatement(GET_DATA_SQL);
+                    PreparedStatement stmNls = connect.prepareStatement(NLS_SQL)) {
+                stmNls.executeQuery();
+
                 stmGetStatus.setString(1, muid);
 
                 ResultSet res = stmGetStatus.executeQuery();
