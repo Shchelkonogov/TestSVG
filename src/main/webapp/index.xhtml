@@ -31,7 +31,7 @@
     <h:form>
         <p:remoteCommand name="jsCall" action="#{mnemonicC.jsCall}" oncomplete="PF('dlg').show();" update="results"/>
         <div id="container">
-            <object data="#{mnemonicC.svgName}" type="image/svg+xml" id="svgDocument" style="width: 100%; height: 100%"/>
+            <object data="#{request.contextPath}#{mnemonicC.svgName}" type="image/svg+xml" id="svgDocument" style="width: 100%; height: 100%"/>
         </div>
         <h:panelGroup id="results">
             <p:dialog header="Modal Dialog" widgetVar="dlg" modal="true" height="100">

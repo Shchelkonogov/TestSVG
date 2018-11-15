@@ -21,16 +21,16 @@ public class MnemonicC {
     public void doSomething() {
         System.out.println("load object: " + objectId);
         if (Objects.isNull(objectId)) {
-            svgName = "img/error.svg";
+            svgName = "/svg/error.svg";
         } else {
-            if (objectId.equals("123")) {
-                svgName = "img/123.svg";
+            if (objectId.equals("testNewFitch")) {
+                svgName = "/img/testNewFitch.svg";
             } else {
                 String fileName = bean.loadSvgName(objectId);
                 if (Objects.isNull(fileName)) {
-                    svgName = "img/error.svg";
+                    svgName = "/svg/error.svg";
                 } else {
-                    svgName = "img/" + fileName;
+                    svgName = "/svg/" + fileName;
                 }
             }
         }
