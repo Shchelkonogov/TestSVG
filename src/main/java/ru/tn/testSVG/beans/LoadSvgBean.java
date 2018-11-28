@@ -8,6 +8,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * stateless бин который выгружает имя мнемосхемы
+ * в соответствии с объектом
+ */
 @Stateless
 public class LoadSvgBean {
 

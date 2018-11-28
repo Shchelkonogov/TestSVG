@@ -10,6 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Сервлет загрузки мгновенных данных
+ * Запускается из js
+ */
 @WebServlet(name = "LoadMInstantDataServlet", urlPatterns = "/instLoad")
 public class LoadMInstantDataServlet extends HttpServlet {
 

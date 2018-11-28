@@ -2,11 +2,15 @@ package ru.tn.testSVG.controller;
 
 import ru.tn.testSVG.beans.LoadSvgBean;
 
+import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.inject.Inject;
 import java.util.Objects;
 
+/**
+ * Контроллер jsf страницы
+ */
 @ManagedBean
 @ViewScoped
 public class MnemonicC {
@@ -18,7 +22,10 @@ public class MnemonicC {
 
     private String hello;
 
-    public void doSomething() {
+    /**
+     * Инициализация загрузки мнемосхемы
+     */
+    public void initLoad() {
         System.out.println("load object: " + objectId);
         if (Objects.isNull(objectId)) {
             svgName = "/svg/error.svg";
@@ -37,6 +44,10 @@ public class MnemonicC {
         System.out.println("mnemonic file for object: " + objectId + " is " + svgName);
     }
 
+    /**
+     * Тестовый метод
+     * Загружается из js кода по нажатию на элемент svg
+     */
     public void jsCall() {
         System.out.println("hello from svg for object " + objectId);
         hello = "Hello from svg!";

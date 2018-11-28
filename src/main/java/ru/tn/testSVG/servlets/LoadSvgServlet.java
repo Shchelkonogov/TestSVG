@@ -13,6 +13,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ * Сервлет который загружает нужный svg файл для отображения
+ */
 @WebServlet(name = "LoadSvgServlet", urlPatterns = "/svg/*")
 public class LoadSvgServlet extends HttpServlet {
 

@@ -7,6 +7,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+/**
+ * stateless бин что бы обработать полученные данные объекта из базы
+ */
 @Stateless
 public class ParseMDataBean {
 

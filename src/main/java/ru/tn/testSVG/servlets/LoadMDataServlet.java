@@ -10,6 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Сервлет загрузки архивных данных
+ * Запускается из js
+ */
 @WebServlet(name = "LoadMDataServlet", urlPatterns = "/load")
 public class LoadMDataServlet extends HttpServlet {
 

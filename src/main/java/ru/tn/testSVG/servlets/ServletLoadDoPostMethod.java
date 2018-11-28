@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Метод doPost для сервлетов загрузки мгновенных и архивных данных
+ */
 class ServletLoadDoPostMethod {
 
     static void doPost(HttpServletRequest req, HttpServletResponse resp, InMDataBeanLocal bean) throws IOException {

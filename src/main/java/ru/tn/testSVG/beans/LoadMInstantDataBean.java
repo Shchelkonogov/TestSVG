@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * stateless бин для загрузки мгновенных данных объекта
+ * для мнемосхемы объекта
+ */
 @Stateless(name = "LoadMInstantDataBean")
 public class LoadMInstantDataBean implements InMDataBeanLocal {
 

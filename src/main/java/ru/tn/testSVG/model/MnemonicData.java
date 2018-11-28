@@ -1,5 +1,8 @@
 package ru.tn.testSVG.model;
 
+/**
+ * Модель данных для отображения на мнемосхеме
+ */
 public class MnemonicData {
 
     private String name, color, data, title;
