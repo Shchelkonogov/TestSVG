@@ -29,9 +29,6 @@ jQuery(window).on('load', function() {
     });
 
     if (svgDom.getElementById('mnemonicSVG') != null) {
-
-        console.log(svgDom.getElementById('mnemonicSVG'));
-
         var width = jQuery("#svgDocument").width() - 40;
 
         var refreshButton = document.createElementNS('http://www.w3.org/2000/svg', 'g');

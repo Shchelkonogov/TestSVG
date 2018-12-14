@@ -11,5 +11,10 @@ import java.util.List;
 @Local
 public interface InMDataBeanLocal {
 
+    /**
+     * Метод возвращает данные для отображения мнемосхемы
+     * @param object объект по которому грузятся данные
+     * @return коллекция с данными
+     */
     List<MnemonicData> getData(String object);
 }

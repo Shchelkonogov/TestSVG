@@ -8,11 +8,17 @@ import java.sql.SQLException;
 import java.util.List;
 
 /**
- * stateless бин что бы обработать полученные данные объекта из базы
+ * Stateless бин что бы обработать полученные данные объекта из базы
  */
 @Stateless
 public class ParseMDataBean {
 
+    /**
+     * Метод обрабатывает выгруженные данные для мнемосхемы
+     * @param result коллекция в которую кладут результаты из базы
+     * @param resData результаты выгрузки из базы
+     * @throws SQLException если есть ошибка бд
+     */
     public void parseData(List<MnemonicData> result, ResultSet resData) throws SQLException {
         String color;
         while(resData.next()) {

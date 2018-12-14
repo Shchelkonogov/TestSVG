@@ -7,6 +7,13 @@ public class MnemonicData {
 
     private String name, color, data, title;
 
+    /**
+     * Конструктор
+     * @param name имя элемента
+     * @param color цвет элемента
+     * @param data значение элемента
+     * @param title всплывающая подсказка элемента
+     */
     public MnemonicData(String name, String color, String data, String title) {
         this.name = name;
         this.color = color;

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * stateless бин для загрузки архивных данных объекта
+ * Stateless бин для загрузки архивных данных объекта
  * для мнемосхемы объекта
  */
 @Stateless(name = "LoadMDataBean")

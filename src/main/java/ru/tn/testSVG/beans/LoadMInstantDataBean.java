@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * stateless бин для загрузки мгновенных данных объекта
+ * Stateless бин для загрузки мгновенных данных объекта
  * для мнемосхемы объекта
  */
 @Stateless(name = "LoadMInstantDataBean")
@@ -44,7 +44,7 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
             e.printStackTrace();
         }
 
-        System.out.println("muid: " + muid + " for object: " + object + " load instant data");
+        System.out.println("LoadMInstantDataBean.getData muid: " + muid + " for object: " + object + " load instant data");
         for (int i = 0; i < 10; i++) {
             try {
                 Thread.sleep(6000);
@@ -52,7 +52,7 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
                 e.printStackTrace();
             }
 
-            System.out.println("waiting: " + ((i + 1) * 6000) + " ms for object: " + object);
+            System.out.println("LoadMInstantDataBean.getData waiting: " + ((i + 1) * 6000) + " ms for object: " + object);
 
             try(Connection connect = ds.getConnection();
                     PreparedStatement stmGetStatus = connect.prepareStatement(GET_STATUS_SQL);
@@ -83,17 +83,17 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
                             result.get(2).setData("Невозможно получить данные с объекта");
                         }
 
-                        System.out.println("data load for object: " + object);
+                        System.out.println("LoadMInstantDataBean.getData data load for object: " + object);
                         return result;
                     } else {
-                        System.out.println("waiting data for object: " + object);
+                        System.out.println("LoadMInstantDataBean.getData waiting data for object: " + object);
                     }
                 }
             } catch(SQLException e) {
                 e.printStackTrace();
             }
         }
-        System.out.println("no data load for object: " + object);
+        System.out.println("LoadMInstantDataBean.getData no data load for object: " + object);
         return result;
     }
 }

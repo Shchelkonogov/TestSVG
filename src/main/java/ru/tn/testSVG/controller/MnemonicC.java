@@ -2,10 +2,9 @@ package ru.tn.testSVG.controller;
 
 import ru.tn.testSVG.beans.LoadSvgBean;
 
-import javax.annotation.PostConstruct;
+import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
-import javax.inject.Inject;
 import java.util.Objects;
 
 /**
@@ -15,9 +14,9 @@ import java.util.Objects;
 @ViewScoped
 public class MnemonicC {
 
-    private String objectId, svgName;
+    private String objectId, svgName, objectName;
 
-    @Inject
+    @EJB
     private LoadSvgBean bean;
 
     private String hello;
@@ -33,6 +32,11 @@ public class MnemonicC {
             if (objectId.equals("testNewFitch")) {
                 svgName = "/img/testNewFitch.svg";
             } else {
+                objectName = bean.getObjectName(objectId);
+                if (Objects.nonNull(objectName)) {
+                    objectName = " для " + objectName;
+                }
+
                 String fileName = bean.loadSvgName(objectId);
                 if (Objects.isNull(fileName)) {
                     svgName = "/svg/error.svg";
@@ -67,6 +71,14 @@ public class MnemonicC {
 
     public void setSvgName(String svgName) {
         this.svgName = svgName;
+    }
+
+    public String getObjectName() {
+        return objectName;
+    }
+
+    public void setObjectName(String objectName) {
+        this.objectName = objectName;
     }
 
     public String getHello() {
