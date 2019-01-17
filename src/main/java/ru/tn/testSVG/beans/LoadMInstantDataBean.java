@@ -70,17 +70,8 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
                         ResultSet resData = stmGetData.executeQuery();
                         bean.parseData(result, resData);
 
-                        boolean noData = true;
-                        for (int j = 5; j < result.size(); j++) {
-                            if (result.get(j).getData() != null
-                                    && !result.get(j).getData().equals("-")
-                                    && !result.get(j).getData().substring(result.get(j).getData().length() - 1).equals("=")) {
-                                noData = false;
-                                break;
-                            }
-                        }
-                        if (noData) {
-                            result.get(2).setData("Невозможно получить данные с объекта");
+                        if(result.isEmpty()) {
+                            result.add(new MnemonicData("time", null, "Невозможно получить данные с объекта", null));
                         }
 
                         System.out.println("LoadMInstantDataBean.getData data load for object: " + object);
@@ -92,6 +83,9 @@ public class LoadMInstantDataBean implements InMDataBeanLocal {
             } catch(SQLException e) {
                 e.printStackTrace();
             }
+        }
+        if(result.isEmpty()) {
+            result.add(new MnemonicData("time", null, "Превышено время ожидания данных", null));
         }
         System.out.println("LoadMInstantDataBean.getData no data load for object: " + object);
         return result;
