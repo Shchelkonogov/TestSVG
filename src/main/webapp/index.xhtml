@@ -28,11 +28,9 @@
     </style>
 </h:head>
 <h:body>
-    <h:form target="_blank">
-        <p:remoteCommand name="redirectJSF" action="#{mnemonicC.redirect}"/>
-    </h:form>
     <h:form>
         <p:remoteCommand name="jsCall" action="#{mnemonicC.jsCall}" oncomplete="PF('dlg').show();" update="results"/>
+        <p:remoteCommand name="redirectJSF" action="#{mnemonicC.redirect}"/>
         <div id="container">
             <object data="#{request.contextPath}#{mnemonicC.svgName}" type="image/svg+xml" id="svgDocument" style="width: 100%; height: 100%"/>
         </div>
