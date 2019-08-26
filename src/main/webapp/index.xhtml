@@ -28,6 +28,9 @@
     </style>
 </h:head>
 <h:body>
+    <h:form target="_blank">
+        <p:remoteCommand name="redirectJSF" action="#{mnemonicC.redirect}"/>
+    </h:form>
     <h:form>
         <p:remoteCommand name="jsCall" action="#{mnemonicC.jsCall}" oncomplete="PF('dlg').show();" update="results"/>
         <div id="container">

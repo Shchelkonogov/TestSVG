@@ -1,10 +1,15 @@
 package ru.tn.testSVG.controller;
 
+import org.primefaces.PrimeFaces;
+import org.primefaces.context.RequestContext;
 import ru.tn.testSVG.beans.LoadSvgBean;
+import ru.tn.testSVG.beans.RedirectSB;
 
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
+import javax.faces.context.FacesContext;
+import java.io.IOException;
 import java.util.Objects;
 
 /**
@@ -18,6 +23,9 @@ public class MnemonicC {
 
     @EJB
     private LoadSvgBean bean;
+
+    @EJB
+    private RedirectSB redirectBean;
 
     private String hello;
 
@@ -55,6 +63,10 @@ public class MnemonicC {
     public void jsCall() {
         System.out.println("hello from svg for object " + objectId);
         hello = "Hello from svg!";
+    }
+
+    public void redirect() {
+        PrimeFaces.current().executeScript("window.open('" + redirectBean.getRedirectUrl(objectId) + "', '_blank')");
     }
 
     public String getObjectId() {
