@@ -35,7 +35,7 @@ public class MnemonicC {
             svgName = "/svg/error.svg";
         } else {
             if (objectId.equals("testNewFitch")) {
-                svgName = "/img/testNewFitch.svg";
+                svgName = "/img/testNewFitch.svg?v1";
             } else {
                 objectName = bean.getObjectName(objectId);
                 if (Objects.nonNull(objectName)) {

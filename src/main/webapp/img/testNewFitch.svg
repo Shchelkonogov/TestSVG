@@ -342,7 +342,7 @@
     <path stroke="#000000" d="m226.613297,655.759583l15.46875,-15.75l15.468735,15.75l-30.937485,0z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none" transform="rotate(-90 242.0820465087892,647.8845825195314) " id="CPх1_col"/>
    </g>
   </g>
-   <g transform="rotate(90 420.15979003906244,539.1597290039064) " id="svg_254" onclick="top.showDialog()">
+   <g transform="rotate(90 420.15979003906244,539.1597290039064) " id="svg_254" onclick="top.jsCall()">
     <ellipse stroke="#000000" ry="20.11414" rx="21.53223" cy="539.159716" cx="420.159793" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="#ffffff" id="svg_255"/>
     <line stroke="#000000" transform="rotate(19 417.40917968750006,546.3445434570311) " y2="546.344106" x2="436.507353" y1="546.344106" x1="398.311023" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none" id="svg_256"/>
     <line stroke="#000000" transform="rotate(161 417.47808837890625,532.1580810546875) " y2="532.157696" x2="436.597973" y1="532.157696" x1="398.358183" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" fill="none" id="svg_257"/>

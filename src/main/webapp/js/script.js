@@ -156,7 +156,3 @@ jQuery.fn.changeVisible = function () {
         jQuery(this).attr("opacity", 1);
     });
 };
-
-function showDialog(){
-    jsCall();
-}
