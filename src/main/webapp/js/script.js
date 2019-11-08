@@ -15,13 +15,15 @@ jQuery(window).on('load', function() {
     }
 
     jQuery(window).resize(function(){
-        if (jQuery('#update-button').length) {
-            console.log(jQuery('#update-button'));
-            var width = jQuery('#svgDocument').width() - 40;
-            var oldAttr = jQuery('#update-button', svgDom).attr('transform');
-            var newAttr = oldAttr.replace(/translate[(]\d+[ ]/, 'translate(' + width + ' ');
-            jQuery('#update-button', svgDom).attr('transform', newAttr);
-        }
+        var width = jQuery('#svgDocument').width() - 40;
+
+        var oldAttr = jQuery('#update-button', svgDom).attr('transform');
+        var newAttr = oldAttr.replace(/translate[(]\d+[ ]/, 'translate(' + width + ' ');
+        jQuery('#update-button', svgDom).attr('transform', newAttr);
+
+        oldAttr = jQuery('#redirect-button', svgDom).attr('transform');
+        newAttr = oldAttr.replace(/translate[(]\d+[ ]/, 'translate(' + (width - 5) + ' ');
+        jQuery('#redirect-button', svgDom).attr('transform', newAttr);
 
         panZoom.resize();
         panZoom.fit();
@@ -70,6 +72,7 @@ jQuery(window).on('load', function() {
         svgContent.appendChild(refreshButton);
 
         var redirect = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        redirect.setAttribute('id', 'redirect-button');
         redirect.setAttribute('class', 'svg-pan-zoom-control');
         redirect.setAttribute('transform', 'translate(' + (width - 5) + ' ' + 50 + ') scale(0.4)');
         redirect.setAttribute('onclick', 'top.redirectJSF()');
