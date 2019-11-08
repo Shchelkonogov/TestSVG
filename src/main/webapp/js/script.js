@@ -40,7 +40,7 @@ jQuery(window).on('load', function() {
                 var oldAttr = jQuery('#rotateItem', svgDom).attr('transform');
                 var rotateValue = oldAttr.match(/rotate[(]\d+[,]/)[0].match(/\d+/)[0];
                 var newRotate = parseInt(rotateValue) + 10;
-                if (newRotate == 360) {
+                if (newRotate === 360) {
                     newRotate = 0;
                 }
                 var newAttr = oldAttr.replace(/rotate[(]\d+[,]/, 'rotate(' + newRotate + ',');
