@@ -16,13 +16,18 @@ class ServletLoadDoPostMethod {
 
     static void doPost(HttpServletRequest req, HttpServletResponse resp, InMDataBeanLocal bean) throws IOException {
         String objId = req.getParameter("objId");
-        List<MnemonicData> mData = bean.getData(objId);
+        try {
+            Integer.parseInt(objId);
+            List<MnemonicData> mData = bean.getData(objId);
 
-        ObjectMapper mapper = new ObjectMapper();
-        System.out.println(mapper.writeValueAsString(mData));
+            ObjectMapper mapper = new ObjectMapper();
+            System.out.println(mapper.writeValueAsString(mData));
 
-        resp.setCharacterEncoding("UTF-8");
-        resp.setContentType("application/json");
-        resp.getWriter().write(mapper.writeValueAsString(mData));
+            resp.setCharacterEncoding("UTF-8");
+            resp.setContentType("application/json");
+            resp.getWriter().write(mapper.writeValueAsString(mData));
+        } catch (NumberFormatException e) {
+            resp.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error with objectId");
+        }
     }
 }

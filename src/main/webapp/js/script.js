@@ -121,27 +121,31 @@ function loadData(url, timer) {
         url: url,
         method: "post",
         data: objectId,
-        error: function(message) {
-            console.log(message);
-        },
-        success: function(data) {
-            for(var i in data) {
-                if (data.hasOwnProperty(i)) {
-                    jQuery("#" + data[i].name, svgDom).changeVisible();
-                    jQuery("#" + data[i].name, svgDom).text(data[i].data);
+        error: [
+            function(message) {
+                console.log(message.responseText);
+            }
+        ],
+        success: [
+            function(data) {
+                for(var i in data) {
+                    if (data.hasOwnProperty(i)) {
+                        jQuery("#" + data[i].name, svgDom).changeVisible();
+                        jQuery("#" + data[i].name, svgDom).text(data[i].data);
 
-                    jQuery("#" + data[i].name + "_tit", svgDom).text(data[i].title);
+                        jQuery("#" + data[i].name + "_tit", svgDom).text(data[i].title);
 
-                    jQuery("#" + data[i].name + "_col", svgDom).changeColor(data[i].color);
+                        jQuery("#" + data[i].name + "_col", svgDom).changeColor(data[i].color);
 
-                    jQuery("#" + data[i].name + "_pic", svgDom).changeVisible();
+                        jQuery("#" + data[i].name + "_pic", svgDom).changeVisible();
+                    }
+                }
+
+                if (timer != null) {
+                    clearInterval(timer);
                 }
             }
-
-            if (timer != null) {
-                clearInterval(timer);
-            }
-        }
+        ]
     });
 }
 
