@@ -25,6 +25,10 @@ jQuery(window).on('load', function() {
         newAttr = oldAttr.replace(/translate[(]\d+[ ]/, 'translate(' + (width - 5) + ' ');
         jQuery('#redirect-button', svgDom).attr('transform', newAttr);
 
+        oldAttr = jQuery('#print-button', svgDom).attr('transform');
+        newAttr = oldAttr.replace(/translate[(]\d+[ ]/, 'translate(' + (width - 5) + ' ');
+        jQuery('#print-button', svgDom).attr('transform', newAttr);
+
         panZoom.resize();
         panZoom.fit();
         panZoom.center();
@@ -99,6 +103,50 @@ jQuery(window).on('load', function() {
 
         svgContent.appendChild(redirect);
 
+        var print = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        print.setAttribute('id', 'print-button');
+        print.setAttribute('transform', 'translate(' + (width - 5) + ' 100) scale(0.08)');
+        print.setAttribute('class', 'svg-pan-zoom-control');
+        print.addEventListener('click', printSvg);
+
+        var printBackground = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        printBackground.setAttribute('width', '500');
+        printBackground.setAttribute('height', '500');
+        printBackground.setAttribute('class', 'svg-pan-zoom-control-background');
+        print.appendChild(printBackground);
+
+        var printPath1 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        printPath1.setAttribute('d', 'M399.25,98.9h-12.4V71.3c0-39.3-32-71.3-71.3-71.3h-149.7c-39.3,0-71.3,32-71.3,71.3v27.6h-11.3    ' +
+            'c-39.3,0-71.3,32-71.3,71.3v115c0,39.3,32,71.3,71.3,71.3h11.2v90.4c0,19.6,16,35.6,35.6,35.6h221.1c19.6,0,35.6-16,' +
+            '35.6-35.6    v-90.4h12.5c39.3,0,71.3-32,71.3-71.3v-115C470.55,130.9,438.55,98.9,399.25,98.9z M121.45,71.3c0-24.4,' +
+            '19.9-44.3,44.3-44.3h149.6    c24.4,0,44.3,19.9,44.3,44.3v27.6h-238.2V71.3z M359.75,447.1c0,4.7-3.9,8.6-8.6,' +
+            '8.6h-221.1c-4.7,0-8.6-3.9-8.6-8.6V298h238.3    V447.1z M443.55,285.3c0,24.4-19.9,44.3-44.3,' +
+            '44.3h-12.4V298h17.8c7.5,0,13.5-6,13.5-13.5s-6-13.5-13.5-13.5h-330    c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,' +
+            '13.5h19.9v31.6h-11.3c-24.4,0-44.3-19.9-44.3-44.3v-115c0-24.4,19.9-44.3,44.3-44.3h316    c24.4,0,44.3,19.9,44.3,' +
+            '44.3V285.3z');
+        print.appendChild(printPath1);
+
+        var printPath2 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        printPath2.setAttribute('d', 'M154.15,364.4h171.9c7.5,0,13.5-6,13.5-13.5s-6-13.5-13.5-13.5h-171.9c-7.5,0-13.5,6-13.5,' +
+            '13.5S146.75,364.4,154.15,364.4    z');
+        print.appendChild(printPath2);
+
+        var printPath3 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        printPath3.setAttribute('d', 'M327.15,392.6h-172c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5h171.9c7.5,0,13.5-6,' +
+            '13.5-13.5S334.55,392.6,327.15,392.6z');
+        print.appendChild(printPath3);
+
+        var printPath4 = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        printPath4.setAttribute('d', 'M398.95,151.9h-27.4c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5h27.4c7.5,0,13.5-6,' +
+            '13.5-13.5S406.45,151.9,398.95,151.9z');
+        print.appendChild(printPath4);
+
+        var printTitle = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+        printTitle.appendChild(document.createTextNode('Печать'));
+        print.appendChild(printTitle);
+
+        svgContent.appendChild(print);
+
         loadData("load", null);
     }
 });
@@ -163,3 +211,52 @@ jQuery.fn.changeVisible = function () {
         jQuery(this).attr("opacity", 1);
     });
 };
+
+function printSvg() {
+    var popUpAndPrint = function() {
+        var svgObject = document.getElementById('svgDocument');
+        if ('contentDocument' in svgObject) {
+            var svgDom = svgObject.contentDocument;
+        }
+
+        var width = jQuery('#mnemonicSVG', svgDom)[0].getAttribute('width');
+        var height = jQuery('#mnemonicSVG', svgDom)[0].getAttribute('height');
+
+        var printWidth = 1024;
+        var printHeight = 700;
+
+        var printWindow = window.open('', 'PrintMap',
+            'width=' + (printWidth + 10) + ',height=' + (printHeight + 10));
+
+        var scaleWidth = 1;
+        var scaleHeight = 1;
+        var scale;
+
+        if (width > printWidth) {
+            scaleWidth = printWidth / width;
+        }
+
+        if (height > printHeight) {
+            scaleHeight = printHeight / height;
+        }
+
+        scale = Math.min(scaleWidth, scaleHeight);
+
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('width', printWidth.toString());
+        svg.setAttribute('height', printHeight.toString());
+
+        svg.appendChild(jQuery('.svg-pan-zoom_viewport', svgDom)[0].cloneNode(true));
+
+        printWindow.document.writeln(svg.outerHTML);
+
+        jQuery('.svg-pan-zoom_viewport', printWindow.document).removeAttr('transform');
+        jQuery('.svg-pan-zoom_viewport', printWindow.document).attr('style', 'transform: scale(' + scale + ');');
+
+        printWindow.document.close();
+        printWindow.print();
+
+        setTimeout(function () { printWindow.close(); }, 500);
+    };
+    setTimeout(popUpAndPrint, 500);
+}
